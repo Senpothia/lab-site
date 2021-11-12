@@ -5,9 +5,11 @@ import { AppComponent } from './app.component';
 import { PlateformeModule } from './plateforme/plateforme.module';
 import { SharedModule } from './shared/shared.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+  
   ],
   imports: [
     BrowserModule,
