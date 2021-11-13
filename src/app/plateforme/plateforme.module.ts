@@ -31,7 +31,10 @@ import { LoginComponent } from './pages/login/login.component';
     CreationSiteComponent,
     SiteComponent,
     CreationAnomalieComponent,
-    ListeAnomaliesComponent
+    ListeAnomaliesComponent,
+    AboutComponent,
+    AideComponent,
+    LoginComponent
   ],
 
   imports: [
