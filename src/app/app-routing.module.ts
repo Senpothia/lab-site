@@ -1,13 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes } from '@angular/router';
-import { ErrorComponent } from './plateforme/pages/error/error.component';
+import { AccueilComponent } from './plateforme/pages/accueil/accueil.component';
 
-const routes : Routes=[
- 
+const routes: Routes = [
 
+  {
+    path: '',
+    component: AccueilComponent,
+    pathMatch:'full'
 
-]
+  }
+];
+
 
 @NgModule({
   declarations: [],
