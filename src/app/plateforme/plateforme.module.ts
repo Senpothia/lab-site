@@ -6,6 +6,8 @@ import { CreationSiteComponent } from './pages/creation-site/creation-site.compo
 import { SiteComponent } from './pages/site/site.component';
 import { CreationAnomalieComponent } from './pages/creation-anomalie/creation-anomalie.component';
 import { ListeAnomaliesComponent } from './pages/liste-anomalies/liste-anomalies.component';
+import { AboutComponent } from './pages/about/about.component';
+import { AideComponent } from './pages/aide/aide.component';
 
 
 
@@ -16,7 +18,9 @@ import { ListeAnomaliesComponent } from './pages/liste-anomalies/liste-anomalies
     CreationSiteComponent,
     SiteComponent,
     CreationAnomalieComponent,
-    ListeAnomaliesComponent
+    ListeAnomaliesComponent,
+    AboutComponent,
+    AideComponent
   ],
 
   exports: [
