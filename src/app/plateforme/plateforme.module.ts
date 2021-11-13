@@ -9,6 +9,7 @@ import { ListeAnomaliesComponent } from './pages/liste-anomalies/liste-anomalies
 import { AboutComponent } from './pages/about/about.component';
 import { AideComponent } from './pages/aide/aide.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 
 
@@ -22,7 +23,8 @@ import { LoginComponent } from './pages/login/login.component';
     ListeAnomaliesComponent,
     AboutComponent,
     AideComponent,
-    LoginComponent
+    LoginComponent,
+    ErrorComponent
   ],
 
   exports: [
@@ -34,7 +36,8 @@ import { LoginComponent } from './pages/login/login.component';
     ListeAnomaliesComponent,
     AboutComponent,
     AideComponent,
-    LoginComponent
+    LoginComponent,
+    ErrorComponent
   ],
 
   imports: [
