@@ -7,6 +7,7 @@ import { AideComponent } from './plateforme/pages/aide/aide.component';
 import { ErrorComponent } from './plateforme/pages/error/error.component';
 import { LoginComponent } from './plateforme/pages/login/login.component';
 import { CreationCompteComponent } from './plateforme/pages/creation-compte/creation-compte.component';
+import { EspaceComponent } from './plateforme/pages/espace/espace.component';
 
 const routes: Routes = [
 
@@ -45,6 +46,12 @@ const routes: Routes = [
   {
     path: 'compte',
     component: CreationCompteComponent
+
+  },
+
+  {
+    path: 'espace',
+    component: EspaceComponent
 
   },
 

@@ -12,6 +12,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { RouterModule } from '@angular/router';
 import { CreationCompteComponent } from './pages/creation-compte/creation-compte.component';
+import { EspaceComponent } from './pages/espace/espace.component';
 
 
 
@@ -27,7 +28,8 @@ import { CreationCompteComponent } from './pages/creation-compte/creation-compte
     AideComponent,
     LoginComponent,
     ErrorComponent,
-    CreationCompteComponent
+    CreationCompteComponent,
+    EspaceComponent
   ],
 
   exports: [
@@ -41,7 +43,9 @@ import { CreationCompteComponent } from './pages/creation-compte/creation-compte
     AideComponent,
     LoginComponent,
     ErrorComponent,
-    CreationCompteComponent
+    CreationCompteComponent,
+    EspaceComponent
+  
   ],
 
   imports: [
