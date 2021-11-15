@@ -10,6 +10,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { AideComponent } from './pages/aide/aide.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ErrorComponent } from './pages/error/error.component';
+import { RouterModule } from '@angular/router';
+import { CreationCompteComponent } from './pages/creation-compte/creation-compte.component';
 
 
 
@@ -24,7 +26,8 @@ import { ErrorComponent } from './pages/error/error.component';
     AboutComponent,
     AideComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    CreationCompteComponent
   ],
 
   exports: [
@@ -37,11 +40,13 @@ import { ErrorComponent } from './pages/error/error.component';
     AboutComponent,
     AideComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    CreationCompteComponent
   ],
 
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class PlateformeModule { }

@@ -6,6 +6,7 @@ import { AboutComponent } from './plateforme/pages/about/about.component';
 import { AideComponent } from './plateforme/pages/aide/aide.component';
 import { ErrorComponent } from './plateforme/pages/error/error.component';
 import { LoginComponent } from './plateforme/pages/login/login.component';
+import { CreationCompteComponent } from './plateforme/pages/creation-compte/creation-compte.component';
 
 const routes: Routes = [
 
@@ -34,17 +35,26 @@ const routes: Routes = [
 
   },
 
+  
+  {
+    path: 'error',
+    component: ErrorComponent,
+
+  },
+
+  {
+    path: 'compte',
+    component: CreationCompteComponent
+
+  },
+
+
   {
     path: '**',
     redirectTo: 'error',
 
   },
 
-  {
-    path: 'error',
-    component: ErrorComponent,
-
-  },
 
 
 
